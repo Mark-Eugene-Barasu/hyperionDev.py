@@ -1,11 +1,4 @@
 
-# import sys
+user_name = input("What is your name?:")
+print( "Welcome " + str(user_name) + "!")
 
-USER_INPUT = int(input("What number will you want the square of? : "))
-
-def square_it(USER_INPUT):
-    USER_INPUT *= USER_INPUT
-    return USER_INPUT
-
-print("Square of "+ str(USER_INPUT) + " will be "+ str(square_it(USER_INPUT)))
-# print(sys.version)
