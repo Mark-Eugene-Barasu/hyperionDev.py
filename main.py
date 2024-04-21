@@ -1,10 +1,5 @@
-
-user_weight = int(input("What is your weight?"))
-user_height = int(input("What is your height?"))
-
-def BMI_calculation(w, h):
-    BMI = round(w / (h * h), 2)
-    return BMI
-
-
-print("your BMI is " + str(BMI_calculation(user_weight, user_height)))
+age = int(input("Enter your age: "))
+weight = float(input("Enter your weight in kg: "))
+height = float(input("Enter your height in m: "))
+BMI = round(weight/(height*height),2)
+print("At age " + str(age) + " your BMI is " + str(BMI))
