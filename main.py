@@ -1,9 +1,10 @@
 
-expression2 = (5 + 6) * 2
-print("expression2 is: " + str(expression2))
+user_weight = int(input("What is your weight?"))
+user_height = int(input("What is your height?"))
 
-expression3 = 6 * 4 - 10 / 5 * 2
-print("expression3 is: " + str(expression3))
+def BMI_calculation(w, h):
+    BMI = round(w / (h * h), 2)
+    return BMI
 
-expression4 = ((15 + 5) - 10) / 2
-print("expression4 is: " + str(expression4))
+
+print("your BMI is " + str(BMI_calculation(user_weight, user_height)))
