@@ -1,15 +1,11 @@
 
-# Info collector
-userName = input("Please enter for full name: ")
-userGender = input("please chose M or F to identify your gender : ")
-userAge = input("How old are you? : ")
-userHouseAddress = input("What is your house number? : ")
-userStreetName = input("Enter street name : ")
-if(userGender == "M" or userGender == "m"):
-    userGender = "he"
-else:
-    userGender = "she"
+# String
 
-print(f"This is {userName}, {userGender} is {userAge} years old and live at {userHouseAddress} {userStreetName}")
-
+song = "The Bird Song"
+licencePlate = "CTA 456 GP"
+name = "John Doe"
+fact = "A traffic jam lasted for more than 10 days, with cars only moving 0.6 miles a day."
+address = "77 Winchester Lane"
+emptyStr = ""
+telephone_num = "0411231234"
 
