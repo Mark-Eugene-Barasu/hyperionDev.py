@@ -1,16 +1,10 @@
+# This is an example Python program.
+# The user inputs a number.
+# The program then outputs all the EVEN numbers from 0 to that number.
+rangeNum = int(input("Enter the max number you'd like to go up to: \n"))
 
-# Slicing multiple characters in a string.
-
-print("Example 1:")
-
-veryLongWord = "supercalifragilisticexpialidocious"
-print(veryLongWord[0:5]) # super
-
-print("Example 2:")
-index = 6 # just a variable
-print(veryLongWord[index:9]) # ali
-
-print("Example 3:")
-print(veryLongWord[0::]) # supercalifragilisticexpialidocious
-print(veryLongWord[::]) # supercalifragilisticexpialidocious
-print(veryLongWord[:9]) # supercali
+# We define a for loop that runs from 0 to rangeNum.
+for i in range (0, rangeNum):          
+  # This checks if the current number of the loop is EVEN.
+  if i%2 == 0: 
+    print(i)
