@@ -1,16 +1,6 @@
+# asking for user name and email
+userName = input("Enter your name : ")
+userEmail = input("Enter your email address : ")
 
-# List method assignment
-
-animals = ["Elephant", "Giraffe", "Dog", "Cat"]
-
-# remove the second animal in the list
-hold = animals.pop(1)
-print(f"{hold} of was taken out of {animals} ")
-
-# add cheetah to the list
-animals.insert(50, "cheetah")
-print(animals)
-
-# remove cheetah from the list
-animals.remove("cheetah")
-print(animals)
+# outputting a message with the user info
+print(f"Hi {userName}! \nWe will be contacting you shortly at {userEmail}")
