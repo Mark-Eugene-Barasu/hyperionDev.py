@@ -1,8 +1,16 @@
 
-# List methods
-groceries = ["apples", "milk", "cheese", "bread"]
-# groceries.append("coffee") # ["apples", "milk", "cheese", "bread"]
-# groceries.insert(len(groceries), "carrots") #["apples", "milk", "cheese", "bread", "coffee"]
-print(groceries)
-print(groceries.append("coffee") == groceries.insert(len(groceries), "coffee"))
+# List method assignment
 
+animals = ["Elephant", "Giraffe", "Dog", "Cat"]
+
+# remove the second animal in the list
+hold = animals.pop(1)
+print(f"{hold} of was taken out of {animals} ")
+
+# add cheetah to the list
+animals.insert(50, "cheetah")
+print(animals)
+
+# remove cheetah from the list
+animals.remove("cheetah")
+print(animals)
