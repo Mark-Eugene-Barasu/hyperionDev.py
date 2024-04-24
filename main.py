@@ -1,3 +1,3 @@
-# Using the "string".replace() method
-aSentence = "Welcome$to$the$world$of$programming"
-print(aSentence.replace("$", " "))
+# Using the "string".strip()
+strHelp = "*********Please leave me alone***********"
+print(strHelp.strip("*"))
