@@ -1,4 +1,5 @@
-// More String Methods
-let aString = "Hello World";
-console.log(aString.toUpperCase());
-console.log(aString.toLowerCase())
+// arrays
+let groceries = ["apples", "milk", "cheese", "bread"];
+console.log(groceries);
+console.log(typeof(groceries)); // because array is a type of object
+console.log(groceries instanceof Array);
