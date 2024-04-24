@@ -1,15 +1,17 @@
 
-# if statement
+# List assignment
 
-current_hour = 22
-guards_presence = False
+women = ["Hannah", "Esther", "Zoe", "Clara", "Olivia"]
+print(women)
 
-if ((current_hour >= 7) and (current_hour <= 17)):
-    print("You're in")
-elif ((current_hour < 7 and guards_presence == True) or (current_hour > 17 and guards_presence == True)):
-    print("You're in")
-else:
-    print("Sorry, Try another day.")
+# Jenny come to the start
+women.insert(0, "Jenny")
+print(women)
 
+# 3rd woman leaves because of a phone call
+women.pop(2) # zero based so 3rd woman is index 2
+print(women)
 
-# great assignment on if elif and else statement
+# Alice joins the line 
+women.append("Alice")
+print(women)
