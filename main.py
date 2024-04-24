@@ -1,15 +1,16 @@
 
-# PseudoCode & Flowcharts
-# get a integer number input from user
-# if integer is even
-#   print "fizz"
-# else:
-#   print "buzz"
-
-# Actual Code
-integer = int(input("Enter any integer number : "))
-if integer%2 == 0:
-    print("fizz")
+# If statements
+num = 10
+if (num < 12):
+    print("the variable num is lower than 12")
+elif (num > 12):
+    print("the variable num is greater than 12")
 else:
-    print("buzz")
+    print("The variable num is equal to 12")
 
+# actual code for previous PseudoCode
+integer = int(input("Enter an integer : "))
+if (integer%2 == 0):
+    print("fizz")
+else: 
+    print("buzz")
