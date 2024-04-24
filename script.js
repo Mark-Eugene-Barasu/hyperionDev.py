@@ -1,5 +1,10 @@
 // arrays
 let groceries = ["apples", "milk", "cheese", "bread"];
+groceries.push("coffee")
+groceries.unshift("carrot")
+groceries.splice(1, 1, "peas")
+groceries.pop()
+groceries.shift();
+console.log(groceries)
+groceries.splice(groceries.indexOf("cheese"), 1 )
 console.log(groceries);
-console.log(typeof(groceries)); // because array is a type of object
-console.log(groceries instanceof Array);
