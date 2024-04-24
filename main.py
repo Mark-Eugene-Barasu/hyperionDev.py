@@ -1,4 +1,3 @@
-# More String Methods
-aString = "Hello World"
-print(aString.upper())
-print(aString.lower())
+# Using the "string".replace() method
+aSentence = "Welcome$to$the$world$of$programming"
+print(aSentence.replace("$", " "))
